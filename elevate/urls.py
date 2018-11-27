@@ -21,6 +21,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'business', views.BusinessViewSet)
+router.register(r'customer', views.CustomerViewSet)
 
 
 urlpatterns = [
