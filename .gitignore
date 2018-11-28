@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Node Modules
+node_modules
+
+# mac
+.DS_Store
+
+# vscode
+.vscode/
