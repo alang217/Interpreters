@@ -23,7 +23,8 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'business', views.BusinessViewSet)
-# router.register(r"frontend", frontend_views.index)
+router.register(r'customer', views.CustomerViewSet)
+
 
 urlpatterns = [
     url(r'^', include(router.urls)),
