@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'elevate.v1',
     'django_extensions',
+    'elevate.frontend',
     #'elevate.v1.models.UsersConfig',
 ]
 
