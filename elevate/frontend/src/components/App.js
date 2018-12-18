@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Homepage from "./Homepage";
 import Test from "./Test";
+import AdminLogin from "./AdminLogin";
+import AdminPortal from "./AdminPortal";
 import ReactDOM from "react-dom";
 import DataProvider from "./DataProvider";
 import Table from "./Table";
@@ -20,6 +22,8 @@ class App extends Component {
       <div className="App">
         <Route exact path="/" component={Homepage} />
         <Route path="/test" component={Test} />
+        <Route path="/admin-login" component={AdminLogin} />
+        <Route path="/admin/:id" component={AdminPortal}/>
       </div>
     );
   }
@@ -34,10 +38,11 @@ class App extends Component {
       //}
         // Hello
         // <Homepage />
-        //{
+        //
           /* <Route path="/sign-up" component={SignUp} />
         <Route path="/login" component={Login} />
         <Route exact path="/" component={Login} />
         <Route path="/main" component={Main} /> */
 
 export default App;
+
