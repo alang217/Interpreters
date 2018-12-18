@@ -5,3 +5,87 @@ body {
 section {
     margin: 50px;
 }
+
+
+/* Login Styles */
+.login-page {
+    background-color: #242348;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    color: #43425D;
+}
+
+.login-container h1 {
+    text-align: center;
+    font-size: 56px;
+    color: #43425D;
+    letter-spacing: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.login-container h2 {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, .50);
+    margin-bottom: 35px;
+}
+
+.login-container input[type=text], 
+.login-container input[type=password] {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 22px;
+    border: none;
+    border-bottom: solid #E9E9F0 2px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.under-input-container, 
+.login-container input[type=text],
+.login-container input[type=password] {
+    width: 270px;
+}
+
+.login-container input[type=password] {
+    margin-bottom: 36px;
+}
+
+.login-container label, .login-container a {
+    color: #43425D;
+    font-size: 14px;
+}
+
+.login-container a {
+    float: right;
+}
+
+.login-container button {
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Button Styles */
+
+button {
+    background-color: gray;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 35px;
+}
+
+.purple {
+    background-color: #43425D;
+}

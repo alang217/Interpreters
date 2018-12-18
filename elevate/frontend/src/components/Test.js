@@ -27,6 +27,7 @@ class Test extends Component {
       )}
 
     render() {
+      console.log(request.session);
       return (
         <div className="Test">
           <h1>Test for 1 business</h1>
