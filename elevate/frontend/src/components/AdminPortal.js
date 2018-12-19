@@ -45,7 +45,7 @@ const routes = [ //routes will also become props
               </li>
             </ul>
       </span>,
-    main: () => <h2>dashboard</h2>
+    main: () => <h1>dashboard</h1>
   },
   {
     path: "/frontend/admin/0/add-business",
@@ -65,19 +65,19 @@ const routes = [ //routes will also become props
               </li>
             </ul>
       </span>,
-    main: () => <h2>add business</h2>
+    main: () => <h1>add business</h1>
   },
   {
     path: "/frontend/admin/0/NMIsetup-1",
     sidebar: () => 
       <div>NMI setup step 1 component</div>,
-    main: () => <h2>nmi setup</h2>
+    main: () => <h1>nmi setup</h1>
   },
   {
     path: "/frontend/admin/0/NMIsetup-2",
     sidebar: () => 
       <div>NMI setup step 2 component</div>,
-    main: () => <h2>nmi setup</h2>
+    main: () => <h1>nmi setup</h1>
   },
 ];
 
