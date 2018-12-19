@@ -23,7 +23,11 @@ class App extends Component {
         <Route exact path="/" component={Homepage} />
         <Route path="/test" component={Test} />
         <Route path="/admin-login" component={AdminLogin} />
-        <Route path="/admin/:id" component={AdminPortal}/>
+        <Route exact path="/admin/:id" component={AdminPortal}/>
+        <Route path="/admin/:id/dashboard" component={AdminPortal}/>
+        <Route path="/admin/:id/add-business" component={AdminPortal}/>
+        <Route path="/admin/:id/NMIsetup-1" component={AdminPortal}/>
+        <Route path="/admin/:id/NMIsetup-2" component={AdminPortal}/>
       </div>
     );
   }
