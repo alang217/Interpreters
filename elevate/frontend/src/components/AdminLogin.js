@@ -29,12 +29,12 @@ class AdminLogin extends Component {
 
     render() {
       return (
-        <section class="login-page row justify-content-center align-items-center">
-            <form class="login-container col-6" onSubmit={this.onSubmit}>
+        <section className="login-page row justify-content-center align-items-center">
+            <form className="login-container col-6" onSubmit={this.onSubmit}>
                 <h1>Elevate</h1>
                 <h2>Admin</h2>
-                <div class="row justify-content-center">
-                    <div class="under-input-container">
+                <div className="row justify-content-center">
+                    <div className="under-input-container">
                         <input type="text" placeholder="Username" onChange={(e) => {this.onChange(e, "username")}} value={this.state.username} required/>
                         <input type="password" placeholder="Password" onChange={(e) => {this.onChange(e, "password")}} value={this.state.password} required/>
                         <label><input type="checkbox" checked={this.state.remeberMe} onClick={this.toggleCheckbox} /> Remember Me </label>
@@ -42,7 +42,7 @@ class AdminLogin extends Component {
                     </div>
                 </div>
                 
-                <button class="purple" type="submit">Login</button>
+                <button className="purple" type="submit">Login</button>
             </form>
         </section>
       );
