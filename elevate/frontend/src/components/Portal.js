@@ -48,7 +48,7 @@ class Portal extends Component {
             <a href="/frontend/admin-login" >Logout</a>
           </li>
           );
-        console.log(jsxSidebar)
+          
         this.props.routes[i].sidebar = () =>
           <span>
             <h2>{this.props.username}</h2> 
