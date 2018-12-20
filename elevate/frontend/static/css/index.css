@@ -146,6 +146,7 @@ button {
     border-radius: 2px;
     color: white;
     padding: 5px 35px;
+    cursor: pointer;
 }
 
 .purple {
