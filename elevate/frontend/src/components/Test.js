@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import DataProvider from './DataProvider';
 
 class Test extends Component {
     constructor(props) {
@@ -13,7 +12,7 @@ class Test extends Component {
     }
 
     componentDidMount = () => {
-      fetch('../business').then((resp) => resp.json()).then(
+      fetch('/business').then((resp) => resp.json()).then(
         (data) => {
           console.log(data);
           let businessTestData = data.results[0];
@@ -27,7 +26,7 @@ class Test extends Component {
       )}
 
     render() {
-      console.log(request.session);
+      // console.log(request.session);
       return (
         <div className="Test">
           <h1>Test for 1 business</h1>

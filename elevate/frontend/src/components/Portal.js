@@ -44,7 +44,7 @@ class Portal extends Component {
           }
         }
         jsxSidebar.push(
-          <li>
+          <li key={"sidebar-logout"}>
             <a href="/frontend/admin-login" >Logout</a>
           </li>
           );
