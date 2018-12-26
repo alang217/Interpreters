@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import Portal from "./Portal.js";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"; //delete after
+import Portal from "./Portal.js";
+import AdminDashboard from "./AdminDashboard";
+import AddBusiness from "./AddBusiness";
+import NMISetupStep1 from "./NMISetupStep1";
+import NMISetupStep2 from "./NMISetupStep2";
 
 
 class AdminPortal extends Component {
@@ -40,31 +44,37 @@ class AdminPortal extends Component {
             name: "",
             selected: "Dashboard",
             exact: true,
-            main: () => <h1>Dashboard</h1>
+            main: () => <AdminDashboard/>
           },
           {
             path: `/frontend/admin/${this.state.id}/dashboard`,
             name: "Dashboard",
             selected: "Dashboard",
-            main: () => <h1>dashboard</h1>
+            main: () => <AdminDashboard/>
           },
           {
             path: `/frontend/admin/${this.state.id}/add-business`,
             name: "Add Business",
             selected: "Add Business",
-            main: () => <h1>add business <Link to={`/frontend/admin/${this.state.id}/NMIsetup-1`}>To NMI</Link></h1>
+            main: () => 
+              <AddBusiness 
+                NMILink={`/frontend/admin/${this.state.id}/NMIsetup-1`}
+              />
           },
           {
             path: `/frontend/admin/${this.state.id}/NMIsetup-1`,
             name: "",
             selected: "Add Business",
-            main: () => <h1>nmi setup 1<Link to={`/frontend/admin/${this.state.id}/NMIsetup-2`}>To NMI 2</Link></h1>
+            main: () => 
+              <NMISetupStep1 
+                NMIStep2Link={`/frontend/admin/${this.state.id}/NMIsetup-2`}
+              />
           },
           {
             path: `/frontend/admin/${this.state.id}/NMIsetup-2`,
             name: "",
             selected: "Add Business",
-            main: () => <h1>nmi setup 2</h1>
+            main: () => <NMISetupStep2/>
           },
         ];
       }

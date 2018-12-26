@@ -10,6 +10,10 @@ class AdminLogin extends Component {
         }
     }
 
+    componentDidMount() {
+        document.title = "Elevate - Admin Login";
+    }
+
     onSubmit = (e) => {
         e.preventDefault();
         // handle logging in
