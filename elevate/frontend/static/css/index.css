@@ -37,7 +37,7 @@ section {
     margin-bottom: 35px;
 }
 
-.login-container input[type=text], 
+.login-container input[type=text],
 .login-container input[type=password] {
     display: block;
     font-size: 14px;
@@ -48,7 +48,7 @@ section {
     padding-left: 5px;
 }
 
-.under-input-container, 
+.under-input-container,
 .login-container input[type=text],
 .login-container input[type=password] {
     width: 270px;
@@ -151,4 +151,89 @@ button {
 
 .purple {
     background-color: #43425D;
+}
+
+/* header */
+header{
+  background-color: #83A3BA;
+  color: black;
+  min-height: 60px;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 25px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 10px 20px 0px 0px;
+}
+
+header #logo{
+  float: left;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+header #logo h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  /* margin-top: 10px; */
+}
+
+header .highlight, header .current a{
+  color: #363086;
+}
+
+header a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
+#showcase{
+  min-height: 150px;
+  background-color: black;
+  margin: 0;
+}
+
+#showcase h1{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 85px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+#content{
+  margin: 20px;
+}
+#content h1{
+  text-align: center;
+  font-weight: normal;
+}
+
+#content p{
+  text-indent: 2.0em;
+  padding: 10px 50px;
+}
+
+hr{
+  border-color: black;
+  margin: 35px 35px;
+  border-width: medium;
 }
