@@ -153,6 +153,7 @@ button {
     background-color: #43425D;
 }
 
+/* HOME PAGE */
 /* header */
 header{
   background-color: #83A3BA;
@@ -236,4 +237,44 @@ hr{
   border-color: black;
   margin: 35px 35px;
   border-width: medium;
+}
+
+/* END OF HOME PAGE */
+
+table{
+  /* border: 1px solid #c6c6c6; */
+  border-spacing: 20px;
+  text-align: center;
+  width: 75%;
+}
+
+th{
+  background-color: #ededed;
+  color: #a5a4a4;
+
+}
+
+
+td{
+  border-bottom: 1px solid #c6c6c6;
+  padding: 15px 0px;
+}
+
+.left_side{
+  text-align: left;
+  padding-left: 8px;
+}
+
+.right_side{
+  text-align: right;
+  padding-right: 8px;
+}
+
+
+.circle{
+  width: 20px;
+  height: 20px;
+  color: green;
+  border-radius: 50%;
+
 }
