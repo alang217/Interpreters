@@ -76,6 +76,8 @@ section {
     margin-bottom: 30px;
 }
 
+/* END OF Login Styles */
+
 /* Portal Styles */
 .portal {
     /* display: flex; */
@@ -136,6 +138,7 @@ section {
 .right-container {  /* the container to the right of the sidebar */
     flex: 0 0 86.333333%;
     max-width: 86.333333%;
+    padding: 0 40px;
 }
 
 /* Button Styles */
@@ -152,6 +155,8 @@ button {
 .purple {
     background-color: #43425D;
 }
+
+/* END OF Button Styles*/
 
 /* HOME PAGE */
 /* header */
@@ -278,3 +283,10 @@ td{
   border-radius: 50%;
 
 }
+
+/* Dashboard Styles */
+.dashboard-container {
+    margin-top: 20px;
+}
+/* End of Dashboard Styles */
+
