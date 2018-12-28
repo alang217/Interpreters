@@ -76,6 +76,8 @@ section {
     margin-bottom: 30px;
 }
 
+/* END OF Login Styles */
+
 /* Portal Styles */
 .portal {
     /* display: flex; */
@@ -136,6 +138,7 @@ section {
 .right-container {  /* the container to the right of the sidebar */
     flex: 0 0 86.333333%;
     max-width: 86.333333%;
+    padding: 0 40px;
 }
 
 /* Button Styles */
@@ -153,6 +156,9 @@ button {
     background-color: #43425D;
 }
 
+/* END OF Button Styles*/
+
+/* HOME PAGE */
 /* header */
 header{
   background-color: #83A3BA;
@@ -237,3 +243,50 @@ hr{
   margin: 35px 35px;
   border-width: medium;
 }
+
+/* END OF HOME PAGE */
+
+table{
+  /* border: 1px solid #c6c6c6; */
+  border-spacing: 20px;
+  text-align: center;
+  width: 75%;
+}
+
+th{
+  background-color: #ededed;
+  color: #a5a4a4;
+
+}
+
+
+td{
+  border-bottom: 1px solid #c6c6c6;
+  padding: 15px 0px;
+}
+
+.left_side{
+  text-align: left;
+  padding-left: 8px;
+}
+
+.right_side{
+  text-align: right;
+  padding-right: 8px;
+}
+
+
+.circle{
+  width: 20px;
+  height: 20px;
+  color: green;
+  border-radius: 50%;
+
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+    margin-top: 20px;
+}
+/* End of Dashboard Styles */
+
