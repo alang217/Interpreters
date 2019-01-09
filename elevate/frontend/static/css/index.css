@@ -363,3 +363,35 @@ td{
     display:inline-block;
     background-color: gray;
 }
+
+
+.dropdown{
+  visibility: hidden;
+  /* margin: 0px 0px; */
+  padding: 0px 0px;
+  /*position:absolute;  only way for everything else not to get affected */
+}
+
+.dropdown li{
+  background-color: #83A3BA;
+  color: white;
+  text-align: center;
+  /* margin: 0px;
+  padding: 0px 3px; */
+  border-bottom: 1px solid black;
+  clear: both;
+  width: 100%;
+}
+
+ul li:hover > ul, ul li ul:hover{
+  visibility: visible;
+  /* opacity: 1; */
+  display: inline;
+}
+
+
+/* login-menu */
+
+#container{
+  background-color: #363086;
+}
