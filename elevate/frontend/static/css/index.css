@@ -395,3 +395,19 @@ ul li:hover > ul, ul li ul:hover{
 #container{
   background-color: #363086;
 }
+
+
+.menu-buttons{
+  display: block;
+}
+.login-button{
+  background: white;
+  color: #686868;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin: 5px;
+  width: 50%;
+  font-size: 30px;
+  height: 50%;
+}
