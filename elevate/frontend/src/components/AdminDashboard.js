@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AdminTableItem from './AdminTableItem'
 
 let MockupData = [
-  {name: "Amazon", status: "OK"},
+  {name: "Amazon", status: "OK"}, //data could contain edit url and enter portal url
   {name: "Apple", status: "OK"},
   {name: "Baskin Robins", status: "OK"},
   {name: "Microsoft", status: "BAD"},
@@ -47,66 +47,6 @@ class AdminDashboard extends Component {
                         )
                       })
                     }
-                    {/* <tr>
-                      <td className='left_side'>Amazon</td>
-                      <td className="">
-                        <span className='circle'>
-                          OK
-                        </span>
-                      </td>
-                      <td className="bold">View |Edit</td>
-                      <td className='right_side'>
-                          <span className="blue-link">Go</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className='left_side'>Apple</td>
-                      <td className="">
-                            <span className='circle'>
-                              OK
-                            </span>
-                          </td>                                  
-                      <td className="bold">View |Edit</td>
-                      <td className='right_side'>
-                          <span className="blue-link">Go</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className='left_side'>Baskin Robins</td>
-                      <td className="">
-                        <span className='circle'>
-                          OK
-                        </span>
-                      </td>
-                      <td className="bold">View |Edit</td>
-                      <td className='right_side'>
-                          <span className="blue-link">Go</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className='left_side'>Microsoft</td>
-                      <td className="">
-                            <span className='circle red'>
-                              BAD
-                            </span>
-                          </td>
-                      <td className="bold">View |Edit</td>
-                      <td className='right_side'>
-                          <span className="blue-link">Go</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className='left_side'>Clorox</td>
-                      <td className="">
-                        <span className='circle'>
-                          OK
-                        </span>
-                      </td>
-                      <td className="bold">View |Edit</td>
-                      <td className='right_side'>
-                          <span className="blue-link">Go</span>
-                      </td>
-                    </tr> */}
                   </table>
                 </div>
       );

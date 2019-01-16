@@ -88,7 +88,9 @@ class AddBusiness extends Component {
                       </div>
                     <br/>
                     <button className="green_button">Save</button>
-                    <button id="setup ">Setup NMI</button>
+                    <Link id="setup" to={this.props.NMILink}>Setup NMI</Link>
+                    <br/>
+                    <br/>
                 </div>
         </div>
       );
