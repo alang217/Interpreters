@@ -398,7 +398,8 @@ ul li:hover > ul, ul li ul:hover{
 
 
 .menu-buttons{
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 .login-button{
   background: white;
