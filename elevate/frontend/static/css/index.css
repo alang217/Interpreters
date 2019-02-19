@@ -418,3 +418,15 @@ ul li:hover > ul, ul li ul:hover{
   margin-left: 25%;
   margin-right: 30%;
 }
+
+/* suspend button styles */
+.quantity{
+  color: #3887E4;
+  font-weight: bold;
+}
+
+.view_button{
+  color: #3384e7;
+  font-weight: bold;
+  text-decoration: underline;
+}
